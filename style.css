@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    margin: 0;
+    padding: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.replace.enter{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.replace{
+    transition: all 1s;
+    opacity: 0;
+    transform: translateX(-500px);
+
+}
+
+
+#base{
+    
+}
